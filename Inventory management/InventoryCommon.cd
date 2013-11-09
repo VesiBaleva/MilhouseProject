@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Deal">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAACBAAAAgQAAAAE=</HashCode>
+      <FileName>Inventory.Common\Deal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Employee">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAABAAMAkAACAIAAAAAAAAAAAAAAACAAAAAg=</HashCode>
+      <FileName>Inventory.Common\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Good">
+    <Position X="11.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggEAEIAAAAAQQAAAEAAAAAAAIAAAACgA=</HashCode>
+      <FileName>Inventory.Common\Good.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Purchase">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.Common\Purchase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sale">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAEAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.Common\Sale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Store" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAMAAAAAoAEAAKIhAAACIAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Inventory.Common\Store.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StoreGood" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAQAIAQEAAEAEAAAAAAAAQAAAAECAAAAAgAAABAE=</HashCode>
+      <FileName>Inventory.Common\StoreGood.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Supplier">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAYAAAAGAAAAAAAAIAAAACA=</HashCode>
+      <FileName>Inventory.Common\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IExpirable">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.Common\IExpirable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IReportable">
+    <Position X="9.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Inventory.Common\IReportable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="GoodsCategory">
+    <Position X="13.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAQAwAAAAAAAAAAAAAAAAAAAAAQAACQAAAAAAMAAQA=</HashCode>
+      <FileName>Inventory.Common\GoodsCategory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Position">
+    <Position X="4.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAIABAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.Common\Position.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Unit">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAACAAAAAAAQAAAA=</HashCode>
+      <FileName>Inventory.Common\Unit.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

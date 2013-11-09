@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InvalidNameException">
+    <Position X="0.75" Y="2.5" Width="2.25" />
+    <InheritanceLine Type="InventoryManagementException" ManuallyRouted="true">
+      <Path>
+        <Point X="5" Y="1.733" />
+        <Point X="5" Y="2.052" />
+        <Point X="1.875" Y="2.052" />
+        <Point X="1.875" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.Exceptions\InvalidNameException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvalidQuantityException">
+    <Position X="6.75" Y="2.5" Width="2" />
+    <InheritanceLine Type="InventoryManagementException" ManuallyRouted="true">
+      <Path>
+        <Point X="5" Y="1.733" />
+        <Point X="5" Y="2.052" />
+        <Point X="7.75" Y="2.052" />
+        <Point X="7.75" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.Exceptions\InvalidQuantityException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvalidSalaryException">
+    <Position X="4" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.Exceptions\InvalidSalaryException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementException">
+    <Position X="4" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.Exceptions\InventoryManagementException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

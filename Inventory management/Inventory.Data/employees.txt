@@ -1,0 +1,5 @@
+Perun|Petrov|Manager|1560.00
+Sirma|Ivanova|Cashier|950.00
+Kubrat|Stefanov|Cashier|925.00
+Malamir|Georgiev|UnloadInspector|1240.50
+Presiyan|Vasilev|Cashier|1038.00

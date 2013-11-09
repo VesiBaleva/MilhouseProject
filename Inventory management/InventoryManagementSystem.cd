@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Deal" Collapsed="true">
+    <Position X="13" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAACBAAAAgQAAAAE=</HashCode>
+      <FileName>Inventory.Common\Deal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Employee" Collapsed="true">
+    <Position X="20" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAABAAMAkAACAIAAAAAAAAAAAAAAACAAAAAg=</HashCode>
+      <FileName>Inventory.Common\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Good" Collapsed="true">
+    <Position X="18.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggEAEIAAAAAQQAAAEAAAAAAAIAAAACgA=</HashCode>
+      <FileName>Inventory.Common\Good.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Purchase" Collapsed="true">
+    <Position X="11.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.Common\Purchase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sale" Collapsed="true">
+    <Position X="14" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAEAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.Common\Sale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Store" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAMAAAAAoAEAAKIhAAACIAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Inventory.Common\Store.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StoreGood" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAQAIAQEAAEAEAAAAAAAAQAAAAECAAAAAgAAABAE=</HashCode>
+      <FileName>Inventory.Common\StoreGood.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Supplier" Collapsed="true">
+    <Position X="18.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAYAAAAGAAAAAAAAIAAAACA=</HashCode>
+      <FileName>Inventory.Common\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvalidNameException" Collapsed="true">
+    <Position X="11.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.Exceptions\InvalidNameException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvalidQuantityException" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.Exceptions\InvalidQuantityException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvalidSalaryException" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.Exceptions\InvalidSalaryException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManagementException" Collapsed="true">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.Exceptions\InventoryManagementException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data" Collapsed="true">
+    <Position X="16.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.System\Data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Events" Collapsed="true">
+    <Position X="21.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAgAAAgAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Inventory.System\Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyboardInterface" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.System\Events.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="File" Collapsed="true">
+    <Position X="16.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAIAAAAAChAAACAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Inventory.System\File.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Generator" Collapsed="true">
+    <Position X="8" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.System\Generator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoodGenerator" Collapsed="true">
+    <Position X="6.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.System\Generator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeGenerator" Collapsed="true">
+    <Position X="9" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.System\Generator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory" Collapsed="true">
+    <Position X="23.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.System\Generator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Initialize" Collapsed="true">
+    <Position X="20" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Inventory.System\Initialize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Load" Collapsed="true">
+    <Position X="16.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAIAIAAAQAIBAAAAAhAEACAAAAAAAAIAAAAAAAKA=</HashCode>
+      <FileName>Inventory.System\Load.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Save" Collapsed="true">
+    <Position X="18.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Inventory.System\Save.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StringExtension" Collapsed="true">
+    <Position X="23.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Inventory.System\StringExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Style" Collapsed="true">
+    <Position X="16.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Inventory.System\Style.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="20" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAABIAAAACIAAAACAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Inventory.System\Timer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyEventArgs" Collapsed="true">
+    <Position X="21.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.System\Timer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Draw" Collapsed="true">
+    <Position X="18.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAIAAAAAAAAAAAAAAAQAIAQAAAAAAAAAIAAA=</HashCode>
+      <FileName>Inventory.UI\Draw.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu" Collapsed="true">
+    <Position X="18.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.UI\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menus" Collapsed="true">
+    <Position X="20" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAgAAAAAAAAAQAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.UI\Menus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Navigation" Collapsed="true">
+    <Position X="23.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.UI\Navigation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectInput" Collapsed="true">
+    <Position X="16.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Inventory.UI\ObjectInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="User" Collapsed="true">
+    <Position X="21.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACIBAAAGAAAgAAAAAAAAAAgAAAAAAAAAAACAIAA=</HashCode>
+      <FileName>Inventory.UI\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Window" Collapsed="true">
+    <Position X="23.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAQAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.UI\Window.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventory" Collapsed="true">
+    <Position X="21.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="MenuItem" Collapsed="true">
+    <Position X="16.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Inventory.UI\MenuItem.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="IExpirable" Collapsed="true">
+    <Position X="6.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.Common\IExpirable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IReportable" Collapsed="true">
+    <Position X="8.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Inventory.Common\IReportable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IUserInterface" Collapsed="true">
+    <Position X="10.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.System\Events.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="GoodsCategory" Collapsed="true">
+    <Position X="12.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAQAwAAAAAAAAAAAAAAAAAAAAAQAACQAAAAAAMAAQA=</HashCode>
+      <FileName>Inventory.Common\GoodsCategory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Position" Collapsed="true">
+    <Position X="14.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAIABAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.Common\Position.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Unit" Collapsed="true">
+    <Position X="16.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAACAAAAAAAQAAAA=</HashCode>
+      <FileName>Inventory.Common\Unit.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="ChangedEventHandler" Collapsed="true">
+    <Position X="19" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Inventory.System\Timer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
